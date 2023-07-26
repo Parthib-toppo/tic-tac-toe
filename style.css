@@ -1,0 +1,113 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  font-family: 'Roboto Mono', monospace;
+  margin: 0;
+  padding: 0;
+  color: #ffe4b8;
+}
+
+body {
+  background: #0e1525;
+}
+
+hr {
+  height: 1px;
+  background-color: #ffe4b8;
+  border: none;
+}
+
+.container {
+  width: 95%;
+  border: 1px solid #ffe4b8;
+  border-radius: 5vw;
+  text-align: center;
+  margin: 60px auto;
+}
+
+.greet {
+  font-size: 5vw;
+}
+
+.gamecontainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.boxcontainer {
+  display: grid;
+  grid-template-rows: repeat(3, 10vw);
+  grid-template-columns: repeat(3, 10vw);
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffe4b8;
+  font-size: 5vw;
+}
+
+.br-0 {
+  border-right: 0;
+}
+
+.bl-0 {
+  border-left: 0;
+}
+
+.bt-0 {
+  border-top: 0;
+}
+
+.bb-0 {
+  border-bottom: 0;
+}
+
+.box:hover {
+  background-color: #4e00c2;
+}
+
+.gameinfo h1 {
+  font-size: 3vw;
+}
+
+.info {
+  text-align: left;
+  font-size: 2vw;
+  margin-top: 1vw;
+}
+
+.resetbutton {
+  text-align: left;
+  margin-top: 2vw;
+}
+
+#reset {
+  font-size: 2vw;
+  color: #ffe4b8;
+  background-color: #0e1525;
+  border: 2px solid;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#reset:hover {
+  color: #0e1525;
+  background-color: #ffe4b8;
+  border: 3px solid #0e1525;
+}
+
+.celebration {
+  display: none;
+  justify-content: flex-start;
+  margin-top: 2vw;
+}
+.excited{
+  width: 8vw;
+}
